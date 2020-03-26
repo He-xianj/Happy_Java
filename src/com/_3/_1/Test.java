@@ -15,25 +15,25 @@ import java.util.Scanner;
 public class Test {
 	public static void main(String[] args) {
 		long k=0;
-//		long kn=1;
 		String c = null;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("求k！(0<n<20)，k=");
 		try {
 			k=sc.nextInt();
 //			数K赋值
-//			kn=hLongK(k);
 //			调用求n!的方法求K！
-//			System.out.println(kn);
 			System.out.println(hLongKn(k));
 			sc.close();
 		}catch(InputMismatchException e) {
 			try {
+//				数K赋值
+//				输入的数据是一个十六进制
 				c=sc.next();
-//				kn=hLongK(c);
+//				调用求n!的方法求K！
 				System.out.println(hLongKn(c));
 				sc.close();
 			}catch(NumberFormatException ex) {
+//				输入的数不是一个整数，则不计算。
 				System.out.println("请输入正确的数值");
 			}
 		}
@@ -41,6 +41,7 @@ public class Test {
 	public static long hLongKn(long k) {
 		long kn=1;
 		if(k<=0) {
+//			输入的数不是一个整数，而是实数，则不计算
 			System.out.println("请输入正整数");
 			kn=0;
 		}else {
@@ -48,6 +49,7 @@ public class Test {
 				kn=v*kn;
 			}
 		}
+//		结果为一个长整数
 		return kn;
 	}
 	public static long hLongKn(String c) {
@@ -55,12 +57,14 @@ public class Test {
 		long k=0;
 		if(c.charAt(0)=='0'&(c.charAt(1)=='X'|c.charAt(1)=='x')) {
 			String c1=(String) c.subSequence(2, c.length());
+//			转化为十进制数
 			k=(long)Integer.parseInt(c1, 16);//转换
 			System.out.println("即k="+k);
 			for(long v = 1;v<=k;v++) {		
 				kn=v*kn;
 		    }
 		}else {
+//			转化为十进制数
 			k=Integer.parseInt(c, 16);//转换
 			System.out.println("即k="+k);
 			for(long v = 1;v<=k;v++) {		
@@ -68,5 +72,6 @@ public class Test {
 		    }
 		}
 		return kn;
+//		结果为一个长整数
 	}
 }
