@@ -20,8 +20,6 @@ package com._3.test._3;
 public class DoubleChromosphere1 {
 	
 	public static void main(String[] args) {
-		int[] balls=new int[33];
-		boolean[] flags=new boolean[33];
 		int[] index=new int[33];
 		System.out.println();
 		for(int r=0;r<=32;r++) {
