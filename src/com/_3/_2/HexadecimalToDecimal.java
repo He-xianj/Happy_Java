@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * 
  * */
-public class hkt {
+public class HexadecimalToDecimal {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String t=scanner.next();// ‰»Î
@@ -15,7 +15,6 @@ public class hkt {
 		}catch(NumberFormatException e) {
 			System.out.println("“Ï≥£");// ‰≥ˆ
 		}
-		
 	}
 
 }
