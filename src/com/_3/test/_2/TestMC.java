@@ -10,10 +10,10 @@ public class TestMC {
 			System.out.println("====成绩统计====");
 			Scanner scanner = new Scanner(System.in);
 			Scanner scan=scanner.useDelimiter("\r\n");
-			scanner.close();
 //扫描器对象扫描的内容以回车换行作为分隔符，排除默认的空格，因而允许扫描内容包含空格
 			System.out.println("请输入要计算的一系列数据(逗号分隔):");
 			String str=scan.next();  //输入一行，如1，2，3，5，6，4
+			scanner.close();
 			String[] strArray=str.split(",");
 			double[] doubleArray=new double[strArray.length];
 			for(int i=0;i<strArray.length;i++){
