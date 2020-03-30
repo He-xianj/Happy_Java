@@ -1,8 +1,6 @@
 package com._3._3;
 import java.util.Arrays;
 import java.util.Scanner;
-
-import com._2.test._2.Add;
 /**
  * （4）编写一个程序计算两复数之和，
  * 输入表达式为（2，3i）+（4，5i），则结果（6+8i），
