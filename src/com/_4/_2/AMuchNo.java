@@ -1,11 +1,13 @@
 package com._4._2;
-
+/**
+ * 没看题目
+ * */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-public class AMuch {
+public class AMuchNo {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int a=0;
