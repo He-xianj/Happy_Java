@@ -41,8 +41,8 @@ public class Book implements Serializable {
 	}
 	@Override
 	public String toString() {
-		return "Book [name=" + name + ", ISBN=" + ISBN + ", author=" + author + ", prices=" + prices + ", press="
-				+ press + "]";
+		return "Book [书名：" + name + ", ISBN:" + ISBN + ", 作者:" + author + ", 价格:" + prices + ", 出版社:"
+				+ press + "]"+"\n";
 	}
 	public Book(String name,long ISBN,String author,double prices,String press) {
 		setName(name);
