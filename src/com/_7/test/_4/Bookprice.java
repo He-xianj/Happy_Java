@@ -9,6 +9,8 @@ import com._6.test._3.Book;
  * 并实现按照price大小排序，
  * 然后遍历ArrayList输出每个Book对象,
  *  使用toString 方法打印。
+ *  @see Book
+ *  @see Bookprice#ar(ArrayList)
  *  */
 public class Bookprice {
 
@@ -32,7 +34,11 @@ public class Bookprice {
 //		使用toString 方法打印
 		System.out.println(l.toString());
 	}
-	
+	/**
+	 * 输入排序
+	 * @param t 是输入需要按照price大小排序的ArrayList<Book>集合
+	 * @return 返回一个按照price大小排序的ArrayList<Book>集合
+	 * */
 	public static ArrayList<Book> ar(ArrayList<Book> t){
 		Book temp=null;
 		for(int i=0;i<t.size()-1;i++) {	
