@@ -1,0 +1,8 @@
+import java.io.*;
+class Information{
+public static void main(String avgs[])
+{System.out.println("Èí¹¤9");
+System.out.println("11");
+System.out.println("ºÎÏÍ¾ı");
+}
+}
