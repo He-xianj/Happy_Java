@@ -2,6 +2,7 @@ package com.frist_semester._4;
 
 /** 判断101到200之间有多少个素数，并输出所有素数！(每行输出10个素数) */
 //自己的不行告别了
+//又一天不行了，到时候直接抄（哭泣）
 public class Prime {
 
 	public static void main(String[] args) {
