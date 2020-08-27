@@ -5,4 +5,3 @@
 学习网站　[菜鸟教程](https://www.runoob.com/java/java-tutorial.htmlps://www.bilibili.com/video/BV1rJ411c7Ha/)   
 **笔记我是用OneNote记的** [笔记](https://onedrive.live.com/view.aspx?resid=B50C55D706FBC742%211803&id=documents "00")    
 其实是我不会markdown（捂脸）
-https://onedrive.live.com/view.aspx?resid=B50C55D706FBC742%211803&id=documents
